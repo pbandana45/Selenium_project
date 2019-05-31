@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unittest Results</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">Unittest Results</h2>
+                <p class='attribute'><strong>Start Time: </strong>2019-05-31 21:36:16</p>
+                <p class='attribute'><strong>Duration: </strong>94.08 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 1, Pass: 1</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.amazonTest</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_search</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p> (1).. TITLE OF THE BOOK: The Data and Analytics Playbook: Proven Methods for Governed Data and Analytic Quality
+  (2)..THE BOOK IS WRITTEN  by
+Lowell Fryman (Author),
+Gregory Lampshire (Author),
+Dan Meers (Author)
+  (3).. NUMBER OF CUSTOMERS REVIEWED THIS PRODUCT: 3 customer reviews
+  (4).. AVERAGE CUSTOMER STARS 4.6 out of 5 stars
+  (5).. BOOK EDITION Kindle  HAS PRICE:  $49.91
+  (5).. BOOK EDITION Paperback  HAS PRICE:  from $45.44
+  (5) .. BOOK EDITION:    HAS PRICE: 
+  (5) .. BOOK EDITION:    HAS PRICE: 
+  (6).. PRODUCT DETAILS FOR EDITION: Kindle------->File Size: 146308 KB
+Print Length: 274 pages
+Page Numbers Source ISBN: 0128023074
+Publisher: Morgan Kaufmann; 1 edition (August 12, 2016)
+Publication Date: August 12, 2016
+Sold by: Amazon Digital Services LLC
+Language: English
+ASIN: B01KIR7I86
+Text-to-Speech: Enabled
+X-Ray:
+Not Enabled
+Word Wise: Not Enabled
+Lending: Not Enabled
+Screen Reader: Supported
+Enhanced Typesetting: Enabled
+Amazon Best Sellers Rank: #1,151,259 Paid in Kindle Store (See Top 100 Paid in Kindle Store)
+#202 in Data Warehousing (Kindle Store)
+#441 in Software Engineering
+#500 in Data Warehousing (Books)
+Would you like to tell us about a lower price?
+  (6).. PRODUCT DETAILS FOR EDITION: Paperback------->Paperback: 292 pages
+Publisher: Morgan Kaufmann; 1 edition (September 16, 2016)
+Language: English
+ISBN-10: 0128023074
+ISBN-13: 978-0128023075
+Product Dimensions: 7.5 x 0.7 x 9.2 inches
+Shipping Weight: 1.4 pounds (View shipping rates and policies)
+Average Customer Review:
+3 customer reviews
+Amazon Best Sellers Rank: #1,296,498 in Books (See Top 100 in Books)
+#376 in Data Warehousing (Books)
+#550 in Management Information Systems
+#985 in Database Storage & Design
+Would you like to tell us about a lower price?
+If you are a seller for this product, would you like to suggest updates through seller support?
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 1, Pass: 1 -- Duration: 94.08 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html
